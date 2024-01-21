@@ -1,6 +1,7 @@
-# Mangpi API Documentation
-
-![Mangpi Logo](https://example.com/mangpi-logo.png)
+<div style="display: inline-flex;">
+    <h1>Mangpi API </h1>
+    <img src="https://media.giphy.com/media/bqd2d3SHaOEFhhar3o/giphy.gif" alt="A beautiful landscape" width="300" height="160">
+</div>
 
 Welcome to the documentation for the Mangpi API. Mangpi is a powerful API that provides [brief description of what Mangpi does].
 
@@ -31,3 +32,22 @@ To access Mangpi API, you need to include an API key in the request header. You 
 ```http
 GET /api/resource
 Authorization: Bearer YOUR_API_KEY
+```
+Base URL
+The base URL for Mangpi API is: https://api.mangpi.com/v1
+
+Rate Limits
+Mangpi API has the following rate limits:
+
+Free Tier: [Number] requests per [time period]
+Premium Tier: [Number] requests per [time period]
+Endpoints
+Endpoint 1
+GET /api/endpoint1
+[Description of Endpoint 1]
+
+Parameters:
+
+param1: [Type] - [Description]
+param2: [Type] - [Description]
+Example:
