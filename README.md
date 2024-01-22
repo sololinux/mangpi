@@ -9,10 +9,10 @@
     </div>
 </div>
 <br>
-
 <h1></h1>
-<br>
-Welcome to the documentation for the Mangpi API. Mangpi is a powerful API that provides [brief description of what Mangpi does].
+
+[Go through The documentation of the Mangpi API <img src="https://img.shields.io/badge/v1.0.0-blue" height="15">]...
+Mangpi is a simple API that provides manga, manhwa, webtoons data like details, chapters, pages.
 
 
 ## Getting Started
