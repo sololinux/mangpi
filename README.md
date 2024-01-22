@@ -1,34 +1,19 @@
 <div align="center">
-    <img src="https://media.giphy.com/media/11lxCeKo6cHkJy/giphy.gif" alt="Dancing" width="180" height="200" align="right">
+  <img src="https://media.giphy.com/media/3NnnS6Q8hVPZC/giphy.gif" alt="Dancing" width="180" height="100" align="right">
     <div align="center">
         <img src="https://media.giphy.com/media/Ej3SUBjzCqhJ1mf0VT/giphy.gif" width="500" height="100" alt="Mangpi"><br>
         <img src="https://img.shields.io/badge/Mangpi_api-blue" height="23">
+        <img src="https://img.shields.io/badge/v1.0.0-blue" height="23">
         <img src="https://img.shields.io/badge/manga-scraper-purple" height="23">
         <img src="https://img.shields.io/badge/api-Documentation-blue" height="23">
     </div>
 </div>
-<br><br>
+<br>
 
-<h1>Mangpi API </h1>
+<h1></h1>
+<br>
 Welcome to the documentation for the Mangpi API. Mangpi is a powerful API that provides [brief description of what Mangpi does].
 
-## Table of Contents
-
-1. [Getting Started](#getting-started)
-    - [Authentication](#authentication)
-    - [Base URL](#base-url)
-    - [Rate Limits](#rate-limits)
-2. [Endpoints](#endpoints)
-    - [Endpoint 1](#endpoint-1)
-    - [Endpoint 2](#endpoint-2)
-3. [Request and Response Formats](#request-and-response-formats)
-    - [Request Format](#request-format)
-    - [Response Format](#response-format)
-4. [Examples](#examples)
-5. [Error Handling](#error-handling)
-6. [FAQ](#faq)
-7. [Contact](#contact)
-8. [License](#license)
 
 ## Getting Started
 
