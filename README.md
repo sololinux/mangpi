@@ -12,17 +12,26 @@
 
 
 **[Go through The documentation of the Mangpi API <img src="https://img.shields.io/badge/v1.0.0-blue" height="15">]**<br>
-Mangpi is a simple API that provides manga, manhwa, webtoons data including its details, chapters, pages and many more. All the provided data are scraped using [Puppeteer]() from [mangaPark.](https://mangapark.net)
-
+Mangpi is a simple API that provides manga, manhwa, webtoons data including its details, chapters, pages and many more. All the provided data are scraped using [Puppeteer](https://github.com/puppeteer/puppeteer) from [mangaPark.](https://mangapark.net)
+<br><br>
 
 ## Endpoints
 
-Endpoint 1
-GET /api/endpoint1
-[Description of Endpoint 1]
+### Endpoint 1
 
-Parameters:
+**`GET /manga/{name}`**
 
-param1: [Type] - [Description]
-param2: [Type] - [Description]
-Example:
+This endpoint allows clients to retrieve details about a manga/manhwa. The response includes various details such as the manga's name, author, genre, synopsis, status and more.
+
+<br>
+
+**Parameters:**
+
+- **{name}** - name of the manga/manhwa, should be in lowercase and space should be seperated by **` _ `** 
+
+<br>
+
+**Example:**
+
+
+
