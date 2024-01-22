@@ -159,6 +159,35 @@ There are only three types of errors possible in the program; manga not found, s
 ```
 <br>
 
+## Run Locally <img src="https://img.shields.io/badge/For linux-blue" height="17">
+
+Make sure you have correct package manager installed before running the program locally, npm or yarn.  
+
+1. Clone the repo
+```
+git clone https://github.com/sololinux/mangpi
+```
+
+2. Go inside the cloned repo (root) and install the required packages
+```
+cd mangpi
+
+npm install
+or
+yarn install
+```
+
+3. Start the program
+```
+npm start
+or
+yarn start
+```
+
+Now, vist localhost in port 7253 as the base url for the api ie. 127.0.0.1:7253/ , for manga explosion 💥.
+
+<br>
+
 ## Contact
 
 For any inquiries or assistance, please contact [solo](mailto:chauraj345r@gmail.com) .
