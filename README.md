@@ -57,7 +57,7 @@ GET /manga/one_piece
 
 **`GET /manga/chaplist/{name}`**
 
-This endpoint allows clients to retrieve details about a manga/manhwa. The response includes various details such as the manga's name, author, genre, synopsis, status and more.
+This endpoint allows clients to retrieve chapter lists of a manga/manhwa. The response includes manga's name, latest Update and all the chapter list in an array.
 
 <br>
 
@@ -68,7 +68,7 @@ This endpoint allows clients to retrieve details about a manga/manhwa. The respo
 
 **Example:**
 ```
-GET /manga/one_piece
+GET /manga/chaplist/one_piece
 ```
 
 **Response** (*200*):
@@ -79,9 +79,14 @@ GET /manga/one_piece
     "code": "200"
   },
   {
-    "data":{
+    "data": {
       "name": "One Piece",
-      //other details
+      "lastUpdate": "91 hours ago",
+      "lastChapter": "Vol.TBE Ch.1104",
+      "chapters": [
+        "Vol.01 Ch.001: Romance Dawn",
+        "Vol.01 Ch.002: They call him \"Straw Hat Luffy\"",
+        //all chapters
       ...
     }
   },
