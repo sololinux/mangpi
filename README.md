@@ -1,5 +1,6 @@
 <div>
-    <img src="https://media.giphy.com/media/11lxCeKo6cHkJy/giphy.gif" alt="A beautiful landscape" width="180" height="200" align="right"><br><br><br><br><br>
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnYwZW51ZWxidWd5bnhuMGZtcnp4Y2x6a3Z3NW0zeGRzam1sZmJ0aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/6TUqtCtfgyievihbkf/giphy.gif" alt="Mangpi">
+    <img src="https://media.giphy.com/media/11lxCeKo6cHkJy/giphy.gif" alt="Dancing" width="180" height="200" align="right"><br><br><br><br><br>
     <h1>Mangpi API </h1>
 </div>
 <br>
