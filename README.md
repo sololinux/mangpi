@@ -141,5 +141,20 @@ GET /manga/chapter/123/one_piece
   //other data
 ]
 ```
+<br>
 
+## Error Handling
+
+There are only three types of errors possible in the program; manga not found, scraper website error and internal server error, and are handeled by returning 404, 502, 500 error code respectively. 
+
+**Example** *(404)*
+```js
+[
+  {
+    "code": "404",
+    "error": "The requested manga/data was not found !!"
+  },
+  //other info
+]
+```
 
