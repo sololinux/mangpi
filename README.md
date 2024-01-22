@@ -26,12 +26,67 @@ This endpoint allows clients to retrieve details about a manga/manhwa. The respo
 <br>
 
 **Parameters:**
-
 - **{name}** - name of the manga/manhwa, should be in lowercase and space should be seperated by **` _ `** 
 
 <br>
 
 **Example:**
+```
+GET /manga/one_piece
+```
 
+**Response** (*200*):
+
+```js
+[
+  {
+    "code": "200"
+  },
+  {
+    "data":{
+      "name": "One Piece",
+      //other details
+      ...
+    }
+  },
+  //other data
+]
+```
+
+### Endpoint 2
+
+**`GET /manga/chaplist/{name}`**
+
+This endpoint allows clients to retrieve details about a manga/manhwa. The response includes various details such as the manga's name, author, genre, synopsis, status and more.
+
+<br>
+
+**Parameters:**
+- **{name}** - name of the manga/manhwa, should be in lowercase and space should be seperated by **` _ `** 
+
+<br>
+
+**Example:**
+```
+GET /manga/one_piece
+```
+
+**Response** (*200*):
+
+```js
+[
+  {
+    "code": "200"
+  },
+  {
+    "data":{
+      "name": "One Piece",
+      //other details
+      ...
+    }
+  },
+  //other data
+]
+```
 
 
