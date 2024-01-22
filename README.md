@@ -147,7 +147,7 @@ GET /manga/chapter/123/one_piece
 
 There are only three types of errors possible in the program; manga not found, scraper website error and internal server error, and are handeled by returning 404, 502, 500 error code respectively. 
 
-**Example** *(404)*
+**Example** *(404)*:
 ```js
 [
   {
@@ -157,4 +157,13 @@ There are only three types of errors possible in the program; manga not found, s
   //other info
 ]
 ```
+<br>
+
+## Contact
+
+For any inquiries or assistance, please contact [solo](mailto:chauraj345r@gmail.com) .
+
+## License
+
+This project is licensed under the MIT. See the [LICENSE](./LICENSE) file for details.
 
