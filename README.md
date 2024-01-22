@@ -1,5 +1,6 @@
 <div align="center">
-    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmxnYmFraGlyanM1eWlhNXNqamI3ZnlyNDEwdjBmcW14bHN1bmdtdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/9a7OTE5ja07Yf3ZFDG/source.gif" width="500" height="250" alt="Mangpi">
+    <img src="https://media.giphy.com/media/Ej3SUBjzCqhJ1mf0VT/giphy.gif" width="500" height="100" alt="Mangpi">
+    <img src="https://img.shields.io/badge/Mangpi_api-blue" width="50" height="20">
     <img src="https://media.giphy.com/media/11lxCeKo6cHkJy/giphy.gif" alt="Dancing" width="180" height="200">
     <h1>Mangpi API </h1>
 </div>
