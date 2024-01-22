@@ -1,11 +1,13 @@
 <div align="center">
-    <img src="https://media.giphy.com/media/Ej3SUBjzCqhJ1mf0VT/giphy.gif" width="500" height="100" alt="Mangpi">
-    <img src="https://img.shields.io/badge/Mangpi_api-blue" width="50" height="20">
-    <img src="https://media.giphy.com/media/11lxCeKo6cHkJy/giphy.gif" alt="Dancing" width="180" height="200">
-    <h1>Mangpi API </h1>
+    <img src="https://media.giphy.com/media/11lxCeKo6cHkJy/giphy.gif" alt="Dancing" width="180" height="200" align="right">
+    <div align="center">
+        <img src="https://media.giphy.com/media/Ej3SUBjzCqhJ1mf0VT/giphy.gif" width="500" height="100" alt="Mangpi"><br>
+        <img src="https://img.shields.io/badge/Mangpi_api-blue" width="80" height="23">
+    </div>
 </div>
-<br>
+<br><br>
 
+<h1>Mangpi API </h1>
 Welcome to the documentation for the Mangpi API. Mangpi is a powerful API that provides [brief description of what Mangpi does].
 
 ## Table of Contents
