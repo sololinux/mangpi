@@ -52,6 +52,7 @@ GET /manga/one_piece
   //other data
 ]
 ```
+<br>
 
 ### Endpoint 2
 
@@ -87,7 +88,54 @@ GET /manga/chaplist/one_piece
         "Vol.01 Ch.001: Romance Dawn",
         "Vol.01 Ch.002: They call him \"Straw Hat Luffy\"",
         //all chapters
-      ...
+        ...
+      ]
+    }
+  },
+  //other data
+]
+```
+<br>
+
+### Endpoint 3
+
+**`GET /manga/chapter/{chapterNumber}/{name}`**
+
+This endpoint allows clients to retrieve chapter's pages of a manga/manhwa. The response includes manga's chapter page's image link with page count.
+
+<br>
+
+**Parameters:**
+- **{name}** - name of the manga/manhwa, should be in lowercase and space should be seperated by **` _ `**
+- **{chapterNumber}** - chapter number, only the number  
+
+<br>
+
+**Example:**
+```
+GET /manga/chapter/123/one_piece
+```
+
+**Response** (*200*):
+
+```js
+[
+  {
+    "code": "200"
+  },
+  {
+    "data": {
+      "name": "One Piece",
+      "chapter": "Ch.123",
+      "release": "5313 days ago",
+      "pages": [
+        {
+          "number": 0,
+          "img": "https://example.link"
+        },
+        //other page's image
+        ...
+      ]
     }
   },
   //other data
