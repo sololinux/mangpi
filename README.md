@@ -1,7 +1,8 @@
-<div style="display: inline-flex;">
+<div>
+    <img src="https://media.giphy.com/media/11lxCeKo6cHkJy/giphy.gif" alt="A beautiful landscape" width="180" height="200" align="right"><br><br><br><br><br>
     <h1>Mangpi API </h1>
-    <img src="https://media.giphy.com/media/bqd2d3SHaOEFhhar3o/giphy.gif" alt="A beautiful landscape" width="300" height="160">
 </div>
+<br>
 
 Welcome to the documentation for the Mangpi API. Mangpi is a powerful API that provides [brief description of what Mangpi does].
 
