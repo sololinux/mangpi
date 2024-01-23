@@ -15,6 +15,12 @@
 Mangpi is a simple API that provides manga, manhwa, webtoons data including its details, chapters, pages and many more. All the provided data are scraped using [Puppeteer](https://github.com/puppeteer/puppeteer) from [mangaPark.](https://mangapark.net)
 <br><br>
 
+## Base URL
+
+Being a student, i am poor af 🤧. Can't afford to host the api on serverless instance. Yeah, i know there are some service provider which provide free hosting, but mine program doesn't work on them due to **timeOut** limitation on free-tire plans. So, **no base url 🥹**.
+
+<br>
+
 ## Endpoints
 
 ### Endpoint 1
@@ -173,14 +179,14 @@ git clone https://github.com/sololinux/mangpi
 cd mangpi
 
 npm install
-or
+//or
 yarn install
 ```
 
 3. Start the program
 ```
 npm start
-or
+//or
 yarn start
 ```
 
