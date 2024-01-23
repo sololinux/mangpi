@@ -6,6 +6,7 @@ const qns = {
     }
 }
 
+//function to create object from array element with its index as count 
 function pag(a) { let d = []; a.forEach((el, i) => { d.push({ "number": i, "img": el }); }); return d; }
 
 //Get required name:slug and chapter:slug from routes
