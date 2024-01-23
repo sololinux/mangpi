@@ -1,0 +1,22 @@
+{
+  "name": "mangpi",
+  "version": "1.0.0",
+  "description": "simple manga, manhwa, webtoon scraper api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "sololinux || raj chaulagain",
+  "license": "ISC",
+  "dependencies": {
+    "@sparticuz/chromium-min": "^119.0.2",
+    "express": "^4.18.2",
+    "puppeteer": "^21.7.0",
+    "puppeteer-core": "^21.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
